@@ -4,10 +4,31 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Estudo JSPe</title>
 </head>
 <body>
 	<h1>Estudos JPS</h1>
-	<% out.print("Foco, força e fé"); %>
+	<%= "Foco, força e fé...." %>
+	
+	
+	<form action="receber-nome.jsp">
+		<input type="text" id="nome" name="nome">
+		<input type="submit" value="Enviar"> </input>
+	
+	
+	</form>		
+	
+
+	<%! int cont = 2;
+		public int retorna(int n){
+			return n *3 ;
+		}		
+	%>
+	
+	
+	<%= cont %>
+	<br/>
+	<%=retorna(8) %>	
+	
 </body>
 </html>
