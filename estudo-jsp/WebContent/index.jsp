@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h1>Estudos JPS</h1>
-	<%= "Foco, força e fé...." %>
+	<%= "Foco, força e fé......." %>
 	
 	
 	<form action="receber-nome.jsp">
