@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Estudo JSPe</title>
+<title>Estudo JSP</title>
 </head>
 <body>
 	<h1>Estudos JPS</h1>
@@ -28,7 +28,8 @@
 	
 	<%= cont %>
 	<br/>
-	<%=retorna(8) %>	
-	
+	<%= retorna(8) %>
+	<br/>	
+	<%= application.getInitParameter("estado")%>
 </body>
 </html>
